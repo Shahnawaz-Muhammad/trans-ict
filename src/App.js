@@ -1,8 +1,10 @@
 import React from "react";
+import Pricing from "./components/pricing";
+
 function App() {
   return (
     <>
-      <h1 className="text-5xl">ehllaldksjf</h1>
+      <Pricing />
     </>
   );
 }
