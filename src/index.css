@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.toggle-btn-onSmall-devices {
+  color: #000 !important;
+}
+
+/* ERP card */
+.services .icon-box h4 {
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 20px !important;
+}
+
+.services .icon-box {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  padding: 10px 25px !important;
+  transition: all ease-in-out 0.4s;
+  background: #fff;
+}
+
+.erp-box-size {
+  width: 400px;
+  height: 130px;
+}
+
+.service-icons-size {
+  width: 50px !important;
+  height: auto;
+}
+
+.icon-size {
+  font-size: 30px;
+}
+
+/* text justify om small device  */
+
+@media only screen and (min-width: 260px) and (max-width: 500px) {
+  .text-justify-on-small-device {
+    text-align: justify;
+    justify-content: center;
+  }
+}
