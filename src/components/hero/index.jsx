@@ -1,0 +1,74 @@
+import { useState } from "react";
+import HeroImg from "../../assets/images/hero-img.png";
+import { GoVideo } from "react-icons/go";
+
+const Hero = () => {
+  const [iconColor, setIconColor] = useState("#ffffff");
+  const [borderColor, setBorderColor] = useState("#ffffff");
+  const [bgColor, setBgColor] = useState("#ffffff");
+  const [textColor, setTextColor] = useState("#ffffff");
+  const handleMouseEnter = () => {
+    setBgColor("#ffffff");
+    setTextColor("#000000");
+  };
+
+  const handleMouseLeave = () => {
+    setBgColor("#800000");
+    setTextColor("#ffffff");
+  };
+  const handleIconHover = () => {
+    setIconColor("#800000");
+    setBorderColor("#800000");
+  };
+  const handleIconLeave = () => {
+    setIconColor("#ffffff");
+    setBorderColor("#ffffff");
+  };
+  return (
+    <div
+       className="relative bg-cover bg-center bg-no-repeat p-12 text-center h-[100vh] lg:h-[calc(100vh-12rem)]  w-full" style={{
+      backgroundImage: `url(${HeroImg})`,
+    }}
+    >
+      <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full">
+        <div className="flex h-full items-center max-w-screen-xl mx-auto">
+          <div className="grid gap-6 text-white text-start w-[590px] p-4">
+            <ul class="list-disc">
+              <li className="text-sm tracking-wider font-bold uppercase">
+                welcome to our company
+              </li>
+            </ul>
+            <h1 className="text-6xl leading-[70px] font-bold capitalize">
+              Affordable Big IT & Technology Solutions
+            </h1>
+            <p className="text-lg leading-7">
+              The goal of IT services is to provide efficient and effective
+              technology solutions that help businesses achieve their
+              objectives.
+            </p>
+            <div className="flex gap-4">
+              <button
+                type="button"
+                className="text-base font-bold py-3 px-10 rounded-full"
+                style={{ backgroundColor: bgColor, color: textColor }}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+              >
+                Get a Quote
+              </button>
+              <div
+                className="flex items-center justify-center border-[1.5px] border-white hover:border-[#800000] text-white font-bold w-14 h-14 rounded-full  hover:text-black"
+                onMouseEnter={handleIconHover}
+                onMouseLeave={handleIconLeave}
+              >
+                <GoVideo color={iconColor} />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Hero;
