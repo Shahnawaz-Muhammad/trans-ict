@@ -4,36 +4,23 @@ import { GoVideo } from "react-icons/go";
 
 const Hero = () => {
   const [iconColor, setIconColor] = useState("#ffffff");
-  const [borderColor, setBorderColor] = useState("#ffffff");
-  const [bgColor, setBgColor] = useState("#ffffff");
-  const [textColor, setTextColor] = useState("#ffffff");
-  const handleMouseEnter = () => {
-    setBgColor("#ffffff");
-    setTextColor("#000000");
-  };
-
-  const handleMouseLeave = () => {
-    setBgColor("#800000");
-    setTextColor("#ffffff");
-  };
   const handleIconHover = () => {
     setIconColor("#800000");
-    setBorderColor("#800000");
   };
   const handleIconLeave = () => {
     setIconColor("#ffffff");
-    setBorderColor("#ffffff");
   };
   return (
     <div
-       className="relative bg-cover bg-center bg-no-repeat p-12 text-center h-[100vh] lg:h-[calc(100vh-12rem)]  w-full" style={{
-      backgroundImage: `url(${HeroImg})`,
-    }}
+      className="relative bg-cover bg-center bg-no-repeat p-12 text-center h-[100vh] lg:h-[calc(100vh-12rem)]  w-full"
+      style={{
+        backgroundImage: `url(${HeroImg})`,
+      }}
     >
       <div className="absolute bottom-0 left-0 right-0 top-0 h-full w-full">
         <div className="flex h-full items-center max-w-screen-xl mx-auto">
           <div className="grid gap-6 text-white text-start w-[590px] p-4">
-            <ul class="list-disc">
+            <ul className="list-disc">
               <li className="text-sm tracking-wider font-bold uppercase">
                 welcome to our company
               </li>
@@ -49,20 +36,17 @@ const Hero = () => {
             <div className="flex gap-4">
               <button
                 type="button"
-                className="text-base font-bold py-3 px-10 rounded-full"
-                style={{ backgroundColor: bgColor, color: textColor }}
-                onMouseEnter={handleMouseEnter}
-                onMouseLeave={handleMouseLeave}
+                className="text-base font-bold py-3 px-10 rounded-full bg-[#800000] hover:bg-white hover:text-black"
               >
                 Get a Quote
               </button>
-              <div
-                className="flex items-center justify-center border-[1.5px] border-white hover:border-[#800000] text-white font-bold w-14 h-14 rounded-full  hover:text-black"
+              <button
+                className={`flex items-center justify-center border-[1.5px] hover:border-[#800000] font-bold w-14 h-14 rounded-full`}
                 onMouseEnter={handleIconHover}
                 onMouseLeave={handleIconLeave}
               >
                 <GoVideo color={iconColor} />
-              </div>
+              </button>
             </div>
           </div>
         </div>
