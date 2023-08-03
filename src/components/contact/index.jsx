@@ -24,19 +24,19 @@ const Contact = () => {
             <div className="flex flex-col gap-5 p-5 my-5 border rounded-xl">
               <p className="text-xl font-semibold">Follow Us:</p>
               <div className="flex gap-5">
-                <div className="w-10 h-10 bg-gray-200 hover:bg-[#800000] text-[#800000]  hover:text-white flex justify-center items-center rounded-full transition-colors duration-300 ease-in-out cursor-pointer">
+                <div className="w-10 h-10 bg-gray-200 hover:bg-[#930000] text-[#930000]  hover:text-white flex justify-center items-center rounded-full transition-colors duration-300 ease-in-out cursor-pointer">
                   <FaFacebookF />
                 </div>
-                <div className="w-10 h-10 bg-gray-200 hover:bg-[#800000] text-[#800000]  flex hover:text-white justify-center items-center rounded-full transition-colors duration-300 ease-in-out cursor-pointer">
+                <div className="w-10 h-10 bg-gray-200 hover:bg-[#930000] text-[#930000]  flex hover:text-white justify-center items-center rounded-full transition-colors duration-300 ease-in-out cursor-pointer">
                   <AiOutlineInstagram />
                 </div>
-                <div className="w-10 h-10 bg-gray-200 hover:bg-[#800000] text-[#800000]  flex hover:text-white justify-center items-center rounded-full transition-colors duration-300 ease-in-out cursor-pointer">
+                <div className="w-10 h-10 bg-gray-200 hover:bg-[#930000] text-[#930000]  flex hover:text-white justify-center items-center rounded-full transition-colors duration-300 ease-in-out cursor-pointer">
                   <AiOutlineTwitter />
                 </div>
-                <div className="w-10 h-10 bg-gray-200 hover:bg-[#800000] text-[#800000]  hover:text-white flex justify-center items-center rounded-full transition-colors duration-300 ease-in-out cursor-pointer">
+                <div className="w-10 h-10 bg-gray-200 hover:bg-[#930000] text-[#930000]  hover:text-white flex justify-center items-center rounded-full transition-colors duration-300 ease-in-out cursor-pointer">
                   <FaLinkedinIn />
                 </div>
-                <div className="w-10 h-10 bg-gray-200 hover:bg-[#800000] text-[#800000]  hover:text-white flex justify-center items-center rounded-full transition-colors duration-300 ease-in-out cursor-pointer">
+                <div className="w-10 h-10 bg-gray-200 hover:bg-[#930000] text-[#930000]  hover:text-white flex justify-center items-center rounded-full transition-colors duration-300 ease-in-out cursor-pointer">
                   <AiFillYoutube />
                 </div>
               </div>
@@ -47,7 +47,7 @@ const Contact = () => {
           </div>
 
           <div className="lg:w-2/3 w-full">
-            <div className="border rounded-xl p-10 bg-contactBg bg-cover">
+            <div className="border rounded-xl p-10 bg-contactBg bg-cover bg-[#930000] bg-blend-luminosity">
               <h1 className="text-2xl font-semibold text-white">
                 Fill The Contact Form
               </h1>

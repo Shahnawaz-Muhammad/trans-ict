@@ -14,3 +14,13 @@ body {
 .box-shadow {
   box-shadow: 0px 9px 75px rgba(8, 20, 44, 0.1);
 }
+
+.border-footer {
+  border-top: 1px solid #B9A6A6
+}
+
+
+.border-footer-around {
+  border-right: 1px solid #B9A6A6;
+  border-left: 1px solid #B9A6A6
+}

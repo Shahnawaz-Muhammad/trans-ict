@@ -4,16 +4,16 @@ import { BsCheckCircle, BsSquareFill } from "react-icons/bs";
 const Blogs = () => {
   return (
     <div className="flex flex-col items-center py-20 ">
-      <div className="flex flex-col gap-5 items-center my-5">
+      <div className="flex flex-col gap-5 items-center my-5 mx-5 md:mx-20 lg:mx-10">
         <div className="flex items-center gap-3 text-sm">
           <BsSquareFill className="text-[#800000] w-3 h-3" />
           <p className="text-md uppercase">Pricing Plans</p>
           <BsSquareFill className="text-[#800000] w-3 h-3" />
         </div>
-        <h1 className="text-5xl font-medium ">Latest News Posts</h1>
+        <h1 className="md:text-5xl text-3xl font-medium ">Latest News Posts</h1>
       </div>
       <div className="w-full md:max-w-screen-xl md:mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-4  mx-10 md:mx-20 lg:mx-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-4  mx-5 md:mx-20 lg:mx-10">
           {[1, 2, 3].map((item) => {
             return (
               <div className="flex flex-col gap-4 p-8 box-shadow rounded-2xl">
@@ -25,13 +25,13 @@ const Blogs = () => {
                   />
                 </div>
                 <div className="flex justify-between text-gray-500">
-                  <p>June 4, 2023</p>
-                  <p>It Service</p>
+                  <p className="text-sm md:text-md">June 4, 2023</p>
+                  <p className="text-sm md:text-md">It Service</p>
                 </div>
-                <h1 className="text-3xl font-semibold">
+                <h1 className="text-2xl md:text-3xl  font-semibold">
                   Your Business Safe Ensure High Availability.
                 </h1>
-                <p className="text-gray-500">
+                <p className="text-gray-500 text-sm md:text-md">
                   We’ve been a strategy thought leader for nearly five decades
                   and we bring But we ipsum dolor sit amet,…
                 </p>
