@@ -7,14 +7,21 @@ import Blogs from "./components/blogs";
 
 import CaseStudies from "./components/caseStudies";
 import Pricing from "./components/pricing";
-import Features from "./components/choose-us";
+import Services from "./components/services";
+import Partners from "./components/partners";
+import Features from "./components/features";
 function App() {
   return (
     <>
       <Header />
       <Hero />
       <CaseStudies />
+      <div className="bg-[#EFF2F8]">
+        <Partners />
+        <Features />
+      </div>
 
+      <Services />
       <Pricing />
       <Contact />
       <Blogs />
