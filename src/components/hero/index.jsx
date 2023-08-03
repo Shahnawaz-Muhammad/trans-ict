@@ -40,13 +40,16 @@ const Hero = () => {
               >
                 Get a Quote
               </button>
-              <button
-                className={`flex items-center justify-center border-[1.5px] hover:border-[#800000] font-bold w-14 h-14 rounded-full`}
-                onMouseEnter={handleIconHover}
-                onMouseLeave={handleIconLeave}
-              >
-                <GoVideo color={iconColor} />
-              </button>
+              <div className="flex items-center gap-4">
+                <button
+                  className={`flex items-center justify-center border-[1.5px] hover:border-[#800000] font-bold w-14 h-14 rounded-full`}
+                  onMouseEnter={handleIconHover}
+                  onMouseLeave={handleIconLeave}
+                >
+                  <GoVideo color={iconColor} />
+                </button>
+                <p className="capitalize text-base font-medium">watch video</p>
+              </div>
             </div>
           </div>
         </div>
