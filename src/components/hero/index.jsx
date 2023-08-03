@@ -29,9 +29,9 @@ const Hero = () => {
               Affordable Big IT & Technology Solutions
             </h1>
             <p className="text-lg leading-7">
-              The goal of IT services is to provide efficient and effective
-              technology solutions that help businesses achieve their
-              objectives.
+              TransICT is a leading solution provider with a deep knowledge base
+              in IT Infrastructure design, implementation, professional services
+              and customer support
             </p>
             <div className="flex gap-4">
               <button
