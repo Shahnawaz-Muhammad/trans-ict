@@ -5,7 +5,7 @@ import { BsCheckCircle, BsSquareFill } from "react-icons/bs";
 const Pricing = () => {
   return (
     <div className="flex justify-center my-10">
-      <div className="max-w-screen-xl w-full text-center ">
+      <div className="max-w-screen-xl w-full text-center mx-5 md:mx-20 lg:mx-10">
         <div className="flex flex-col gap-5 items-center">
           <div className="flex items-center gap-3 text-sm">
             <BsSquareFill className="text-[#930000] w-3 h-3" />
@@ -20,7 +20,7 @@ const Pricing = () => {
           </p>
         </div>
 
-        <div className="flex flex-col lg:flex-row gap-5 my-6 xl:my-10 mx-10 md:mx-20 lg:mx-10">
+        <div className="flex flex-col lg:flex-row gap-5 my-6 xl:my-10 ">
           <div className="flex flex-col sm:flex-row p-12 border rounded-xl w-full justify-between border-[#930000] hover:border-none box-shadow transition-all duration-500 ease-in-out ">
             <div className="flex flex-col gap-5 mb-2">
               <div className="flex flex-col gap-2 lg:gap-5 relative">

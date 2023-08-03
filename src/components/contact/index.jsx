@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <div className=" flex justify-center  ">
       <div className="max-w-screen-xl w-full ">
-        <div className="flex flex-col lg:flex-row  my-10 gap-10 mx-10 md:mx-20 lg:mx-10">
+        <div className="flex flex-col lg:flex-row  my-10 gap-10 mx-5 md:mx-20 lg:mx-10">
           <div className="lg:w-1/2 w-full">
             <p className="mb-5">HAVE ANY QUESTION?</p>
             <h1 className="text-5xl mb-8"> Let’s Discuss About Something</h1>
