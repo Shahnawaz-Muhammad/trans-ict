@@ -8,6 +8,8 @@ import linkify from "../../assets/linkify.png";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css/navigation";
+import 'swiper/css';
+
 const Partners = () => {
     const images = [
         { src: muast, alt: "none" },
