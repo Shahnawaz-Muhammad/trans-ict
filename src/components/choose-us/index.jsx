@@ -1,7 +1,7 @@
 import { FiArrowUpRight } from "react-icons/fi";
 import { FeaturesData } from "../../data/featuresData";
 
-const Features = () => {
+const ChooseUs = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-8 mx-4">
       {FeaturesData.map((featuresData, index) => (
@@ -46,4 +46,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default ChooseUs;

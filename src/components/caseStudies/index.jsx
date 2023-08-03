@@ -1,5 +1,5 @@
 import { BsSquareFill } from "react-icons/bs";
-import Features from "../features";
+import ChooseUs from "../choose-us";
 
 const CaseStudies = () => {
   return (
@@ -21,7 +21,7 @@ const CaseStudies = () => {
             </p>
           </div>
         </div>
-        <Features />
+        <ChooseUs />
       </div>
     </div>
   );
