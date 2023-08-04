@@ -1,5 +1,5 @@
 import { useState } from "react";
-import transIct from "../../assets/images/trans-ict.png";
+import transIct from "../../assets/imgs/trans-ict.png";
 import { NavbarData } from "../../data/navbarData";
 
 const Navbar = () => {

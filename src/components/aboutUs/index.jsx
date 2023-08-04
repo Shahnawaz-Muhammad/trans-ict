@@ -1,8 +1,7 @@
-import React from "react";
-import man1 from "../../assets/images/man-smiling.png";
-import aboutUs from "../../assets/images/about-us-bg.png";
-import { BsSquareFill } from "react-icons/bs";
 import { useState } from "react";
+import man1 from "../../assets/imgs/man-smiling.png";
+import aboutUs from "../../assets/imgs/about-us-bg.png";
+import { BsSquareFill } from "react-icons/bs";
 
 const AboutUs = () => {
   const [bgColor, setBgColor] = useState("bg-[#000000]");

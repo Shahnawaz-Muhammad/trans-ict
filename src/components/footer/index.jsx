@@ -6,9 +6,9 @@ import {
   AiFillYoutube,
 } from "react-icons/ai";
 import FooterAddress from "./footer-address";
-import pakFlag from "../../assets/images/pakistan-flag-animated.gif";
-import ugandaFlag from "../../assets/images/uganda-flag-animated.gif";
-import ukFlag from "../../assets/images/uk-flag-animated.gif";
+import pakFlag from "../../assets/imgs/pakistan-flag-animated.gif";
+import ugandaFlag from "../../assets/imgs/uganda-flag-animated.gif";
+import ukFlag from "../../assets/imgs/uk-flag-animated.gif";
 
 const Footer = () => {
   return (

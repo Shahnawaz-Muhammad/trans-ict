@@ -1,7 +1,7 @@
-import FeaturesBackground from "../assets/images/features-bg.png";
-import feature1 from "../assets/images/feature-1.png";
-import feature2 from "../assets/images/feature-2.png";
-import feature3 from "../assets/images/feature-3.png";
+import FeaturesBackground from "../assets/imgs/features-bg.png";
+import feature1 from "../assets/imgs/feature-1.png";
+import feature2 from "../assets/imgs/feature-2.png";
+import feature3 from "../assets/imgs/feature-3.png";
 
 export const FeaturesData = [
   {
