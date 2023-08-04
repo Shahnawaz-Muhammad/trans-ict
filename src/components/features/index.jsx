@@ -4,7 +4,7 @@ import itmanagement from "../../assets/itmanagement.svg";
 import mobile from "../../assets/mobile.svg";
 import datatracking from "../../assets/datatracking.svg";
 import circle from "../../assets/circle.svg";
-import { BiSquareRounded } from "react-icons/bi";
+import {  BsSquareFill } from "react-icons/bs";
 
 const Features = () => {
   return (
@@ -16,9 +16,9 @@ const Features = () => {
           <img src={circle} alt="" className="absolute z-0" />
           <div className="w-full md:max-w-screen-xl md:mx-auto flex flex-col items-center justify-center mt-12">
             <span className="flex justify-center items-center space-x-2   ">
-              <BiSquareRounded className="text-[#0E59F2] bg-[#0E59F2] text-[9px]"></BiSquareRounded>
-              <p>OUR FEATURES</p>
-              <BiSquareRounded className="text-[#0E59F2] bg-[#0E59F2] text-[9px]"></BiSquareRounded>
+            <BsSquareFill className="text-[#930000] w-3 h-3" />
+              <p className="text-md uppercase">OUR FEATURES</p>
+              <BsSquareFill className="text-[#930000] w-3 h-3" />
             </span>
             <p className="text-4xl mt-4 pb-40">Awesome Features</p>
           </div>

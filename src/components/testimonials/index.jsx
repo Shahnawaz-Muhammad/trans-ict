@@ -65,22 +65,22 @@ const ClientsTalk = () => {
                                     </div>
                                 </div>
                                 <div className='flex pt-2' style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start'  }}>
-                                    <h1 className="text-4xl font-bold pt-4">{data.title}</h1>
+                                    <h1 className="text-4xl font-semibold pt-4">{data.title}</h1>
                                 </div>
                                 <div className='flex pt-6' style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
                                     <img src={data.imageSource} alt="Your Image" className="w-28 h-28 mt-10" />
                                 </div>
                                 <div className='flex pt-2' style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
-                                    <h1 className="text-4xl font-bold pt-10">“{data.quote}”</h1>
+                                    <h1 className="text-4xl font-semibold pt-10">“{data.quote}”</h1>
                                 </div>
-                                <div className='text-center mt-4 font-bold text-[#98999d] pt-4'>
+                                <div className='text-center mt-4 font-normal text-gray-500 pt-4'>
                                     {data.des}
                                 </div>
                                 <div className='flex pt-4' style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
-                                    <h1 className="text-4xl font-bold pt-4">{data.author}</h1>
+                                    <h1 className="text-xl  font-semibold pt-4">{data.author}</h1>
                                 </div>
                                 <div className='flex' style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
-                                    <p className='mt-4'>
+                                    <p className='mt-2'>
                                         <span>{data.designation}</span>
                                     </p>
                                 </div>
