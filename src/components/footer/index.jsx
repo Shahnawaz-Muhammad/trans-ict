@@ -20,9 +20,10 @@ const Footer = () => {
               <div className="flex flex-col gap-5">
                 <h1 className="text-2xl font-semibold">About Us</h1>
                 <p className="font-light">
-                  A cybersecurity consultancy, which can assist you in evaluating your
-                  security requirements and crafting a comprehensive
-                  cybersecurity strategy that aligns with your business goals.
+                  A cybersecurity consultancy, which can assist you in
+                  evaluating your security requirements and crafting a
+                  comprehensive cybersecurity strategy that aligns with your
+                  business goals.
                 </p>
                 <div className="flex gap-3">
                   <div className="w-10 h-10 border border-gray-200 flex justify-center items-center rounded-full hover:bg-[#B9A6A6] hover:border-none cursor-pointer">
@@ -47,11 +48,11 @@ const Footer = () => {
               <div className="flex flex-col gap-5">
                 <h1 className="text-2xl font-semibold">HOSTING</h1>
                 <ul className="flex flex-col gap-3">
-                  <li>WEB HOSTING</li>
-                  <li>EMAIL SERVERS</li>
-                  <li>VPS</li>
-                  <li>CORPORATE DATA HOSTING</li>
-                  <li>DATA WAREHOUSING</li>
+                  <li className="hover:underline cursor-pointer">WEB HOSTING</li>
+                  <li className="hover:underline cursor-pointer">EMAIL SERVERS</li>
+                  <li className="hover:underline cursor-pointer">VPS</li>
+                  <li className="hover:underline cursor-pointer">CORPORATE DATA HOSTING</li>
+                  <li className="hover:underline cursor-pointer">DATA WAREHOUSING</li>
                 </ul>
               </div>
             </div>
@@ -89,11 +90,11 @@ const Footer = () => {
               <div className="flex flex-col gap-5">
                 <h1 className="text-2xl font-semibold">Recent Posts</h1>
                 <ul className="flex flex-col gap-3">
-                  <li>About Us</li>
-                  <li>Our Mission</li>
-                  <li>Meet The Teams</li>
-                  <li>Our Projects</li>
-                  <li>Contact Us</li>
+                  <li className="hover:underline cursor-pointer">About Us</li>
+                  <li className="hover:underline cursor-pointer">Our Mission</li>
+                  <li className="hover:underline cursor-pointer">Meet The Teams</li>
+                  <li className="hover:underline cursor-pointer">Our Projects</li>
+                  <li className="hover:underline cursor-pointer">Contact Us</li>
                 </ul>
               </div>
             </div>
