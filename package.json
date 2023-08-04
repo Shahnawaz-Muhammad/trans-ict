@@ -12,15 +12,10 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
     "react-scripts": "5.0.1",
-<<<<<<< HEAD
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
-    "swiper": "^10.1.0",
-    "web-vitals": "^2.1.4"
-=======
     "web-vitals": "^2.1.4",
     "swiper": "^10.1.0"
->>>>>>> 56623031e7b1502ad55c58d86397962d0118fd96
   },
   "scripts": {
     "start": "react-scripts start",
