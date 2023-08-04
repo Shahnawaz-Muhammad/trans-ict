@@ -17,7 +17,7 @@ export const FeaturesData = [
     featureImg: feature2,
   },
   {
-    feature: "Feature-01",
+    feature: "Feature-03",
     featureText: "Competitive Pricing For Service",
     bgImg: FeaturesBackground,
     featureImg: feature3,

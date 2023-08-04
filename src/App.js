@@ -1,6 +1,5 @@
 import React from "react";
 
-import TextSlider from "./components/TextSlider";
 import Prograss from "./components/skills";
 import ClientsTalk from "./components/testimonials";
 import Header from "./components/header";
@@ -8,12 +7,12 @@ import Hero from "./components/hero";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 import Blogs from "./components/blogs";
-
 import CaseStudies from "./components/caseStudies";
 import Pricing from "./components/pricing";
 import Services from "./components/services";
 import Partners from "./components/partners";
 import Features from "./components/features";
+
 function App() {
   return (
     <>

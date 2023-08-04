@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import AllImages from '../../data/allImages';
-import { BsCheckCircle, BsSquareFill } from "react-icons/bs";
+import {  BsSquareFill } from "react-icons/bs";
 
 
 const dataArray = [
@@ -49,7 +49,7 @@ const ClientsTalk = () => {
         <div className="flex  bg-testimonialBg mt-28 bg-cover py-20">
             <div className="w-1/3 pl-16 hidden md:block">
                 <div className="imgcircle h-14 w-14 rounded-full bg-[#b6dcfd] mt-20"></div>
-                <img src={AllImages.man} alt="Your Image" className="myImage" />
+                <img src={AllImages.man} alt="Man" className="myImage" />
             </div>
 
             <div className="w-full md:w-1/3 pt-16 parent-div">
@@ -68,7 +68,7 @@ const ClientsTalk = () => {
                                     <h1 className="text-4xl font-semibold pt-4">{data.title}</h1>
                                 </div>
                                 <div className='flex pt-6' style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
-                                    <img src={data.imageSource} alt="Your Image" className="w-28 h-28 mt-10" />
+                                    <img src={data.imageSource} alt={data.author} className="w-28 h-28 mt-10" />
                                 </div>
                                 <div className='flex pt-2' style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
                                     <h1 className="text-4xl font-semibold pt-10">“{data.quote}”</h1>
@@ -93,12 +93,12 @@ const ClientsTalk = () => {
             <div className="w-1/3 hidden md:block mt-10 ">
                 <div className='w-full flex justify-evenly pl-32 '>
                     <div className="imgcircle h-14 w-14 rounded-full  mt-20">
-                        <img src={AllImages.circlboy} alt="Your Image" className="w-full h-full" />
+                        <img src={AllImages.circlboy} alt="cirle boy image" className="w-full h-full" />
                     </div>
                 </div>
                 <div className='w-full pl-20 flex justify-start mt-32'>
                     <div className="imgcircle h-14 w-14 rounded-full ">
-                        <img src={AllImages.circlegirl} alt="Your Image" className="w-full h-full" />
+                        <img src={AllImages.circlegirl} alt="circle girl image" className="w-full h-full" />
                     </div>
                 </div>
                 <div className='w-full pl-32 flex justify-evenly mt-32'>

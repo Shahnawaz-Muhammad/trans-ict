@@ -1,7 +1,7 @@
 import React from "react";
 import AllImages from "../../data/allImages";
 
-import { BsCheckCircle, BsSquareFill } from "react-icons/bs";
+import { BsSquareFill } from "react-icons/bs";
 
 export default function Prograss() {
   return (

@@ -19,7 +19,8 @@ const ChooseUs = () => {
                   <a
                     href="https://wptf.themepul.co/tronix/service/technologysolution/"
                     target="_blank"
-                    rel="nofollow"
+
+                    rel="noreferrer"
                   >
                     {featuresData.featureText}
                   </a>
@@ -36,7 +37,7 @@ const ChooseUs = () => {
                 </div>
               </div>
               <div className="self-end">
-                <img className="w-100" src={featuresData.featureImg} />
+                <img className="w-100" src={featuresData.featureImg} alt={featuresData.feature} />
               </div>
             </div>
           </div>

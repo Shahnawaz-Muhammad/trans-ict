@@ -9,7 +9,7 @@ import gfi from "../../assets/images/gfi.png";
 import barracuda from "../../assets/images/barracuda.png";
 import avg from "../../assets/images/avg.png";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css/navigation";
 import "swiper/css";
 
@@ -24,9 +24,7 @@ const Partners = () => {
     { src: kaspersky, alt: "none" },
     { src: avg, alt: "none" },
   ];
-  const handleSlideChange = (swiper) => {
-    console.log("Slide changed. Current slide index:", swiper.realIndex);
-  };
+
   return (
     <>
       <div className="flex justify-center mt-20">
