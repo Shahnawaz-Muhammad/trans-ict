@@ -12,7 +12,7 @@ const TextSlider = () => {
     { id: 3, title: "HAPPY CUSTOMER" },
     { id: 4, title: "GET A QUOTE" },
     { id: 5, title: "WEBSITE & MOBILE" },
-    { id: 5, title: "TECHNOLOGY" },
+    // { id: 6, title: "TECHNOLOGY" },
   ];
 
   return (
@@ -53,7 +53,7 @@ const TextSlider = () => {
         >
           {array.map((item) => {
             return (
-              <SwiperSlide className="w-full flex ">
+              <SwiperSlide className="w-full flex " key={item.id}>
                 <div className="w-full h-full mx-auto flex items-center justify-center">
                   <h1 className="text-white text-2xl text-center">
                     {item.title}

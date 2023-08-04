@@ -15,14 +15,14 @@ import "swiper/css";
 
 const Partners = () => {
   const images = [
-    { src: cisco, alt: "none" },
-    { src: avast, alt: "none" },
-    { src: mcAffee, alt: "none" },
-    { src: calAmp, alt: "none" },
-    { src: gfi, alt: "none" },
-    { src: barracuda, alt: "none" },
-    { src: kaspersky, alt: "none" },
-    { src: avg, alt: "none" },
+    { id:1,src: cisco, alt: "none" },
+    { id:2,src: avast, alt: "none" },
+    { id:3,src: mcAffee, alt: "none" },
+    { id:4,src: calAmp, alt: "none" },
+    { id:5,src: gfi, alt: "none" },
+    { id:6,src: barracuda, alt: "none" },
+    { id:7,src: kaspersky, alt: "none" },
+    { id:8, src: avg, alt: "none" },
   ];
 
   return (
@@ -63,7 +63,7 @@ const Partners = () => {
           >
             {images.map((image) => {
               return (
-                <SwiperSlide className="w-full">
+                <SwiperSlide className="w-full" key={image.id}>
                   <img src={image.src} alt=""  className="mx-auto h-full"/>
                 </SwiperSlide>
               );

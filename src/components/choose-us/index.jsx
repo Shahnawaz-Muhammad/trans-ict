@@ -9,7 +9,7 @@ const ChooseUs = () => {
           key={index}
           className="h-[500px] bg-cardBg bg-no-repeat bg-cover border boeder-1 rounded-[19px]"
         >
-          <div classsName="absolute top-0 right-0">
+          <div className="absolute top-0 right-0">
             <div className="flex flex-wrap justify-center h-[500px] p-10">
               <div className="grid gap-2">
                 <p className="text-sm text-left leading-4 font-medium capitalize">
