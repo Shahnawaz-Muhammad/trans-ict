@@ -82,11 +82,11 @@ const ContactForm = () => {
           ></textarea>
         </div>
         <button
-      type="submit"
-      className="text-black bg-gray-300 hover:bg-[#930000] hover:text-white font-medium rounded-full text-lg w-full sm:w-auto px-5 py-2.5 text-center transition-colors duration-300"
-    >
-      Get a Quote
-    </button>
+          type="submit"
+          className="text-black bg-gray-300 hover:bg-[#930000] hover:text-white font-medium rounded-full text-lg w-full sm:w-auto px-5 py-2.5 text-center transition-colors duration-300"
+        >
+          Get a Quote
+        </button>
       </form>
     </>
   );

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import HeroImg from "../../assets/images/hero-img.png";
+import HeroImg from "../../assets/imgs/hero-img.png";
 import { GoVideo } from "react-icons/go";
 
 const Hero = () => {

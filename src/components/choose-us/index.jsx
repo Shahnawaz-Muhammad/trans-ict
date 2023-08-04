@@ -9,7 +9,6 @@ const ChooseUs = () => {
           key={index}
           className="h-[500px] bg-cardBg bg-no-repeat bg-cover border boeder-1 rounded-[19px]"
         >
-          <div classsName="absolute top-0 right-0">
             <div className="flex flex-wrap justify-center h-[500px] p-10">
               <div className="grid gap-2">
                 <p className="text-sm text-left leading-4 font-medium capitalize">
@@ -19,14 +18,15 @@ const ChooseUs = () => {
                   <a
                     href="https://wptf.themepul.co/tronix/service/technologysolution/"
                     target="_blank"
-                    rel="nofollow"
+            
+                    rel="noreferrer"
                   >
                     {featuresData.featureText}
                   </a>
                 </h4>
                 <div className="flex items-center gap-1">
                   <a
-                    href="#"
+                    href="www.google.com"
                     target="_blank"
                     className="no-underline capitalize"
                   >
@@ -36,10 +36,9 @@ const ChooseUs = () => {
                 </div>
               </div>
               <div className="self-end">
-                <img className="w-100" src={featuresData.featureImg} />
+                <img className="w-100" src={featuresData.featureImg}  alt={featuresData.feature}/>
               </div>
             </div>
-          </div>
         </div>
       ))}{" "}
     </div>

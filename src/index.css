@@ -27,3 +27,6 @@ body {
   border-bottom: 1px solid #1a1110;
 }
 /* ----------------------- */
+.swiper-horizontal {
+  height: 120px;
+}

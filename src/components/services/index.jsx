@@ -1,7 +1,7 @@
 import React from "react";
-
-import { BiSquareRounded } from "react-icons/bi";
 import people from "../../assets/people.png";
+import { BsSquareFill } from "react-icons/bs";
+
 const Services = () => {
   return (
     <>
@@ -9,22 +9,24 @@ const Services = () => {
         <div className=" grid lg:grid-cols-2 grid-cols-1 w-[80%] xl:mt-64 md:mt-[500px] mt-[73rem]  md:w-[80%] 2xl:w-[75%] ">
           <div className=" flex items-center">
             <div className="  ">
-              <div className="flex  items-center space-x-2">
-                <BiSquareRounded className="bg-[#0E59F2] text-[#0E59F2] text-[15px] " />
-                <p className="text-lg text-[15px] font-semibold">
-                  WELCOME TO OUR COMPANY
-                </p>
+              <div className="flex items-center">
+                <BsSquareFill className="text-[#930000] w-3 h-3" />
+
+                <p className="ml-2">WELCOME TO OUR COMPANY</p>
               </div>
               <p className="text-[44px] text-[#1C1C25] leading-[58px] mt-3">
                 We Make Awesome IT Services For Your Newly Business
               </p>
               <div className="sm:flex sm:flex-row flex flex-col gap-4  mt-9 ">
-                <button className=" bg-[#0E59F2] rounded-full  text-[#FFFFFF] font-semibold text-[16px] w-[185px] h-[56px]  hover:bg-[#930000]">
-                  Start A Projects
+                <button
+                  type="submit"
+                  className="text-black bg-[#B9A6A6] shadow-md hover:bg-[#930000] hover:text-white font-medium rounded-full text-lg w-full sm:w-auto px-5 py-2.5 text-center transition-colors duration-300"
+                >
+                  Get a Quote
                 </button>
                 <div className=" flex items-center   ">
                   <div className="">
-                    <p className="text-[#0E59F2] font-semibold text-[18px]">
+                    <p className="text-[#930000] font-semibold text-[18px]">
                       Call Us: 258-3258 235
                     </p>
                     <p className="font-semibold text-[18px]">
@@ -37,7 +39,7 @@ const Services = () => {
             </div>
           </div>
           <div className=" flex justify-center items-center  sm:mt-0  mt-1">
-            <img src={people} className="w-[100%]  "></img>
+            <img src={people} className="w-[100%]" alt=""></img>
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ const CaseStudies = () => {
             <h2 className="capitalize text-5xl text-center font-medium leading-10">
               why people choose us?
             </h2>
-            <p className="text-base text-center text-[#7B7E86] max-w-[1200px] md:px-[150px] lg:px-[310px]">
+            <p className="text-base text-center text-[#7B7E86] max-w-[1200px] md:px-[150px] lg:px-[310px] pb-20">
               IT service providers work closely adipiscing elit. Morbi obortis
               ligula euismod sededesty am augue nisl.
             </p>
