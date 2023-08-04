@@ -1,5 +1,5 @@
 import React from "react";
-import { BsCheckCircle, BsSquareFill } from "react-icons/bs";
+import {  BsSquareFill } from "react-icons/bs";
 
 const Blogs = () => {
   return (

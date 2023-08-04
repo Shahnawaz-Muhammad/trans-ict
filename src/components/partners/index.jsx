@@ -9,7 +9,7 @@ import gfi from "../../assets/images/gfi.png";
 import barracuda from "../../assets/images/barracuda.png";
 import avg from "../../assets/images/avg.png";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import "swiper/css/navigation";
 import "swiper/css";
 
@@ -17,20 +17,18 @@ const Partners = () => {
   const images = [
     { src: cisco, alt: "none" },
     { src: avast, alt: "none" },
-    { src: kaspersky, alt: "none" },
     { src: mcAffee, alt: "none" },
     { src: calAmp, alt: "none" },
     { src: gfi, alt: "none" },
     { src: barracuda, alt: "none" },
+    { src: kaspersky, alt: "none" },
     { src: avg, alt: "none" },
   ];
-  const handleSlideChange = (swiper) => {
-    console.log("Slide changed. Current slide index:", swiper.realIndex);
-  };
+
   return (
     <>
       <div className="flex justify-center mt-20">
-        <div className=" w-full max-w-screen-xl flex justify-between  bg-opacity-70 py-20 px-10 ">
+        <div className=" w-full max-w-screen-xl flex justify-between  bg-opacity-70 py-10 px-10 ">
           <Swiper
             slidesPerView={5}
             spaceBetween={30}
@@ -40,7 +38,7 @@ const Partners = () => {
             breakpoints={{
               320: {
                 slidesPerView: 3,
-                spaceBetween: 10,
+                spaceBetween: 15,
               },
 
               640: {
@@ -52,12 +50,12 @@ const Partners = () => {
                 spaceBetween: 20,
               },
               1024: {
-                slidesPerView: 7,
+                slidesPerView: 6,
                 spaceBetween: 25,
               },
               1289:{
-                slidesPerView: 8,
-                spaceBetween: 30,
+                slidesPerView: 6,
+                spaceBetween: 20,
               }
             }}
             modules={[Pagination, Autoplay]}
@@ -65,8 +63,8 @@ const Partners = () => {
           >
             {images.map((image) => {
               return (
-                <SwiperSlide >
-                  <img src={image.src} alt=""  className="mx-auto "/>
+                <SwiperSlide className="w-full">
+                  <img src={image.src} alt=""  className="mx-auto h-full"/>
                 </SwiperSlide>
               );
             })}
