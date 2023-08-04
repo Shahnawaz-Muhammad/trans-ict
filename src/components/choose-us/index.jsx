@@ -27,9 +27,10 @@ const ChooseUs = () => {
                 </h4>
                 <div className="flex items-center gap-1">
                   <a
-                    href="#"
+                    href="https://wptf.themepul.co/tronix/service/technologysolution/"
                     target="_blank"
                     className="no-underline capitalize"
+                    rel="noreferrer"
                   >
                     learn more
                   </a>
