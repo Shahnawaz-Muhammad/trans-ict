@@ -1,6 +1,6 @@
-import man1 from "../../assets/images/choose-us-img.png";
+import React from "react";
+import man1 from "../../assets/images/man-smiling.png";
 import aboutUs from "../../assets/images/about-us-bg.png";
-
 import { BsSquareFill } from "react-icons/bs";
 import { useState } from "react";
 
