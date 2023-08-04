@@ -14,12 +14,12 @@ const AboutUs = () => {
     setBgColor("bg-[#000000]");
   };
   return (
-    <div className="max-w-[1220px] mx-auto pt-20 lg:pt-60">
+    <div className="max-w-[1220px] mx-auto pt-20 px-4 lg:pt-60">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-36 place-items-center">
         <div className="relative">
           <img src={man} />
           <img
-            className="absolute left-[0] bottom-[0] md:left-[10px] md:bottom-[0] lg:left-[-20%] lg:bottom-[-15%] z-[-1] max-w-[100%] md:w-[550px] md:h-[550px]"
+            className="absolute left-[0] bottom-[0] lg:left-[3%] lg:bottom-[7%] xl:left-[-20%] xl:bottom-[-15%] z-[-1] max-w-[100%] xl:w-[550px] xl:h-[550px]"
             src={aboutUs}
           />
         </div>
