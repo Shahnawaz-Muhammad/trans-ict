@@ -143,7 +143,7 @@ const Testimonials = () => {
           <div className="imgcircle h-14 w-14 rounded-full  mt-20">
             <img
               src={AllImages.circlboy}
-              alt="cirle boy image"
+              alt="boy"
               className="w-full h-full"
             />
           </div>
@@ -152,7 +152,7 @@ const Testimonials = () => {
           <div className="imgcircle h-14 w-14 rounded-full ">
             <img
               src={AllImages.circlegirl}
-              alt="circle girl image"
+              alt="girl"
               className="w-full h-full"
             />
           </div>
