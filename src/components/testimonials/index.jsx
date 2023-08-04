@@ -32,7 +32,7 @@ const dataArray = [
   },
 ];
 
-const ClientsTalk = () => {
+const Testimonials = () => {
   const settings = {
     dots: false,
     infinite: true,
@@ -165,4 +165,4 @@ const ClientsTalk = () => {
   );
 };
 
-export default ClientsTalk;
+export default Testimonials;

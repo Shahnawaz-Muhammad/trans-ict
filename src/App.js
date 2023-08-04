@@ -1,7 +1,7 @@
 import React from "react";
 
 import Prograss from "./components/skills";
-import ClientsTalk from "./components/testimonials";
+import Testimonials from "./components/testimonials";
 import Header from "./components/header";
 import Hero from "./components/hero";
 import Contact from "./components/contact";
@@ -28,7 +28,7 @@ function App() {
       </div>
       <Services />
       <Prograss />
-      <ClientsTalk />
+      <Testimonials />
       <Pricing />
       <Contact />
       <Blogs />

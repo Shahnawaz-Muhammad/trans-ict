@@ -1,9 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import AllImages from "../../data/allImages";
 
 import { BsSquareFill } from "react-icons/bs";
+import ProgressBar from "./progress-bar";
 
 export default function Prograss() {
+  const [progress, setProgress] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (progress < 100) {
+        setProgress((prevProgress) => prevProgress + 1);
+      }
+    }, 50);
+
+    return () => clearInterval(interval);
+  }, [progress]);
+
   return (
     <div className="flex justify-center z-50  mb-5">
       <div className=" grid lg:grid-cols-2 grid-cols-1 w-[80%] gap-10 my-20 md:w-[80%] 2xl:w-[75%] ">
@@ -23,12 +36,7 @@ export default function Prograss() {
                 <p>BUSINESS SECURITY</p>
                 <p>62%</p>
               </div>
-              <div className="bg-gray-300 h-4 rounded-lg relative">
-                <div
-                  className="bg-[#930000] h-full rounded-lg"
-                  style={{ width: "62%" }}
-                ></div>
-              </div>
+              <ProgressBar percentage={62} />
             </div>
 
             <div>
@@ -36,12 +44,8 @@ export default function Prograss() {
                 <p>CAREER DEVELOPMENT</p>
                 <p>88%</p>
               </div>
-              <div className="bg-gray-300 h-4 rounded-lg relative">
-                <div
-                  className="bg-[#930000] h-full rounded-lg"
-                  style={{ width: "88%" }}
-                ></div>
-              </div>
+              <ProgressBar percentage={88} />
+
             </div>
 
             <div>
@@ -49,12 +53,8 @@ export default function Prograss() {
                 <p>BUSINESS INNOVATION</p>
                 <p>90%</p>
               </div>
-              <div className="bg-gray-300 h-4 rounded-lg relative">
-                <div
-                  className="bg-[#930000] h-full rounded-lg"
-                  style={{ width: "90%" }}
-                ></div>
-              </div>
+              <ProgressBar percentage={90} />
+
             </div>
           </div>
         </div>
