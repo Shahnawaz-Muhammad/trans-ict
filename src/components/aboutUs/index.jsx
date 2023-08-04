@@ -1,4 +1,4 @@
-import man from "../../assets/images/man.png";
+import man1 from "../../assets/images/man-1.png";
 import aboutUs from "../../assets/images/about-us-bg.png";
 
 import { BsSquareFill } from "react-icons/bs";
@@ -17,7 +17,7 @@ const AboutUs = () => {
     <div className="max-w-[1220px] mx-auto pt-20 px-4 lg:pt-60">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-36 place-items-center">
         <div className="relative">
-          <img src={man} />
+          <img src={man1} />
           <img
             className="absolute left-[0] bottom-[0] lg:left-[3%] lg:bottom-[7%] xl:left-[-20%] xl:bottom-[-15%] z-[-1] max-w-[100%] xl:w-[550px] xl:h-[550px]"
             src={aboutUs}
