@@ -18,7 +18,7 @@ const ChooseUs = () => {
                   <a
                     href="https://wptf.themepul.co/tronix/service/technologysolution/"
                     target="_blank"
-
+            
                     rel="noreferrer"
                   >
                     {featuresData.featureText}
@@ -26,7 +26,7 @@ const ChooseUs = () => {
                 </h4>
                 <div className="flex items-center gap-1">
                   <a
-                    href="#"
+                    href="www.google.com"
                     target="_blank"
                     className="no-underline capitalize"
                   >
@@ -36,7 +36,7 @@ const ChooseUs = () => {
                 </div>
               </div>
               <div className="self-end">
-                <img className="w-100" src={featuresData.featureImg} />
+                <img className="w-100" src={featuresData.featureImg}  alt={featuresData.feature}/>
               </div>
             </div>
         </div>
