@@ -2,7 +2,9 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import AllImages from './allImages';
+import AllImages from '../../data/allImages';
+import { BsCheckCircle, BsSquareFill } from "react-icons/bs";
+
 
 const dataArray = [
     {
@@ -10,7 +12,7 @@ const dataArray = [
         imageSource: AllImages.user5,
         quote: "Trans ESCROW",
         des: "TransICT inc. is sole Escrow Solution provider in Pakistan. It is also offering services across to the financial, governmental, public and private entities. We have experienced them to be the best & always reachable",
-        author: "SYED MUJEEB",
+        author: "Syed Mujeeb",
         designation: "Bank (CEO)"
     },
     {
@@ -44,7 +46,7 @@ const ClientsTalk = () => {
     };
 
     return (
-        <div className="flex mx-4 container mt-28">
+        <div className="flex  bg-testimonialBg mt-28 bg-cover py-20">
             <div className="w-1/3 pl-16 hidden md:block">
                 <div className="imgcircle h-14 w-14 rounded-full bg-[#b6dcfd] mt-20"></div>
                 <img src={AllImages.man} alt="Your Image" className="myImage" />
@@ -56,27 +58,31 @@ const ClientsTalk = () => {
                         <div key={index} className="slide-item">
                             <div className="slide-content" >
                                 <div className='flex' style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
-                                    <p className="ml-2">CLIENTS TALK</p>
+                                    <div className="flex items-center gap-3 text-sm ">
+                                        <BsSquareFill className="text-[#930000] w-3 h-3" />
+                                        <p className="text-md uppercase">Pricing Plans</p>
+                                        <BsSquareFill className="text-[#930000] w-3 h-3" />
+                                    </div>
                                 </div>
-                                <div className='flex' style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
-                                <h1 className="text-4xl font-bold pt-4">{data.title}</h1>
+                                <div className='flex pt-2' style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start'  }}>
+                                    <h1 className="text-4xl font-bold pt-4">{data.title}</h1>
                                 </div>
-                                <div className='flex' style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
-                                <img src={data.imageSource} alt="Your Image" className="w-28 h-28 mt-10" />
+                                <div className='flex pt-6' style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
+                                    <img src={data.imageSource} alt="Your Image" className="w-28 h-28 mt-10" />
                                 </div>
-                                 <div className='flex' style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
-                                <h1 className="text-4xl font-bold pt-10">“{data.quote}”</h1>
+                                <div className='flex pt-2' style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
+                                    <h1 className="text-4xl font-bold pt-10">“{data.quote}”</h1>
                                 </div>
-                                <div className='text-center mt-4 font-bold text-[#98999d] '>
+                                <div className='text-center mt-4 font-bold text-[#98999d] pt-4'>
                                     {data.des}
                                 </div>
-                                <div className='flex' style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
-                                <h1 className="text-4xl font-bold pt-4">{data.author}</h1>
+                                <div className='flex pt-4' style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
+                                    <h1 className="text-4xl font-bold pt-4">{data.author}</h1>
                                 </div>
                                 <div className='flex' style={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-start' }}>
-                                <p className='mt-6'>
-                                    <span>{data.designation}</span>
-                                </p>
+                                    <p className='mt-4'>
+                                        <span>{data.designation}</span>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -90,12 +96,12 @@ const ClientsTalk = () => {
                         <img src={AllImages.circlboy} alt="Your Image" className="w-full h-full" />
                     </div>
                 </div>
-                <div className='w-full pl-20 flex justify-start mt-20'>
+                <div className='w-full pl-20 flex justify-start mt-32'>
                     <div className="imgcircle h-14 w-14 rounded-full ">
                         <img src={AllImages.circlegirl} alt="Your Image" className="w-full h-full" />
                     </div>
                 </div>
-                <div className='w-full pl-32 flex justify-evenly mt-28'>
+                <div className='w-full pl-32 flex justify-evenly mt-32'>
                     <div className="imgcircle h-14 w-14 rounded-full bg-[#dfddff]"></div>
                 </div>
             </div>

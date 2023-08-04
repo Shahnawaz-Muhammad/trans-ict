@@ -1,8 +1,8 @@
 import React from "react";
 
 import TextSlider from "./components/TextSlider";
-import Prograss from "./components/Prograss";
-import ClientsTalk from "./components/ClientsTalk";
+import Prograss from "./components/skills";
+import ClientsTalk from "./components/testimonials";
 import Header from "./components/header";
 import Hero from "./components/hero";
 import Contact from "./components/contact";
@@ -17,8 +17,7 @@ import Features from "./components/features";
 function App() {
   return (
     <>
-      <Prograss />
-      <ClientsTalk />
+      
       <Header />
       <Hero />
       <CaseStudies />
@@ -26,8 +25,9 @@ function App() {
         <Partners />
         <Features />
       </div>
-
       <Services />
+      <Prograss />
+      <ClientsTalk />
       <Pricing />
       <Contact />
       <Blogs />

@@ -1,9 +1,9 @@
 import React from 'react';
-import AllImages from './allImages';
+import AllImages from '../../data/allImages';
 
 export default function Prograss() {
   return (
-    <div className="flex flex-col md:flex-row ml-28 mr-28 mt-24">
+    <div className="flex flex-col md:flex-row mx-5 md:mx-20 lg:mx-10 mt-24">
     <div className="w-full md:w-1/2 p-2 md:mr-20 md:order-first" style={{  }}>
       {/* Content for the blue div */}
       <div className='flex'>
