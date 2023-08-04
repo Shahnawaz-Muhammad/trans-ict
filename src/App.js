@@ -1,9 +1,16 @@
 import React from "react";
 import Header from "./components/header";
 import Hero from "./components/hero";
-import Pricing from "./components/pricing";
+import Contact from "./components/contact";
+import Footer from "./components/footer";
+import Blogs from "./components/blogs";
+
 import CaseStudies from "./components/caseStudies";
 import AboutUs from "./components/aboutUs";
+import Pricing from "./components/pricing";
+import Services from "./components/services";
+import Partners from "./components/partners";
+import Features from "./components/features";
 function App() {
   return (
     <>
@@ -11,7 +18,16 @@ function App() {
       <Hero />
       <CaseStudies />
       <AboutUs />
+      <div className="bg-[#EFF2F8]">
+        <Partners />
+        <Features />
+      </div>
+
+      <Services />
       <Pricing />
+      <Contact />
+      <Blogs />
+      <Footer />
     </>
   );
 }

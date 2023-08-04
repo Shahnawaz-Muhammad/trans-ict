@@ -1,49 +1,104 @@
-import { FiArrowUpRight } from "react-icons/fi";
-import { FeaturesData } from "../../data/featuresData";
+import React from "react";
+import technology from "../../assets/technologysolution.svg";
+import itmanagement from "../../assets/itmanagement.svg";
+import mobile from "../../assets/mobile.svg";
+import datatracking from "../../assets/datatracking.svg";
+import circle from "../../assets/circle.svg";
+import { BiSquareRounded } from "react-icons/bi";
 
 const Features = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-8 mx-4">
-      {FeaturesData.map((featuresData, index) => (
-        <div
-          key={index}
-          className="h-[500px] bg-cardBg bg-no-repeat bg-cover border boeder-1 rounded-[19px]"
-        >
-          <div classsName="absolute top-0 right-0">
-            <div className="flex flex-wrap justify-center h-[500px] p-10">
-              <div className="grid gap-2">
-                <p className="text-sm text-left leading-4 font-medium capitalize">
-                  {featuresData.feature}
-                </p>
-                <h4 className="text-3xl text-left font-medium">
-                  <a
-                    href="https://wptf.themepul.co/tronix/service/technologysolution/"
-                    target="_blank"
-                    rel="nofollow"
-                  >
-                    {featuresData.featureText}
-                  </a>
-                </h4>
-                <div className="flex items-center gap-1">
-                  <a
-                    href="#"
-                    target="_blank"
-                    className="no-underline capitalize"
-                  >
-                    learn more
-                  </a>
-                  <FiArrowUpRight className="text-[#800000]" />
+    <>
+      {/* circle part */}
+
+      <div className=" relative ">
+        <div className="w-full flex py-16 justify-center ">
+          <img src={circle} alt="" className="absolute z-0" />
+          <div className="w-full md:max-w-screen-xl md:mx-auto flex flex-col items-center justify-center mt-12">
+            <span className="flex justify-center items-center space-x-2   ">
+              <BiSquareRounded className="text-[#0E59F2] bg-[#0E59F2] text-[9px]"></BiSquareRounded>
+              <p>OUR FEATURES</p>
+              <BiSquareRounded className="text-[#0E59F2] bg-[#0E59F2] text-[9px]"></BiSquareRounded>
+            </span>
+            <p className="text-4xl mt-4 pb-40">Awesome Features</p>
+          </div>
+        </div>
+
+        {/* four boxes main div */}
+        <div className="absolute z-0 flex justify-center space-x-5  w-[100%]  top-64 ">
+          <div className="  w-[80%] md:w-[80%] 2xl:w-[75%] grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-4 ">
+            {/* first card  */}
+
+            <div className="border md:w-[100%] md:h-[300px]  xl:w-[100%] xl:h-[360px] flex justify-center items-center bg-[#FFFFFF] rounded-[15px]">
+              <div className=" w-[75%] h-[300px]">
+                <div className=" w-[70px] h-[70px] flex justify-center items-center bg-[#E6EEFE] rounded-lg mt-4 p-4">
+                  <img src={technology} alt="none"></img>
+                </div>
+                <div className="mt-4">
+                  <p className="text-[24px] text-[#1C1C25]">
+                    Technology <br></br>solution
+                  </p>
+                  <p className="mt-3 ">
+                    Risus turpis id mauris tellus ultricies cras nulla
+                  </p>
                 </div>
               </div>
-              <div className="self-end">
-                <img className="w-100" src={featuresData.featureImg} />
+            </div>
+
+            {/* second card  */}
+            <div className="border md:w-[100%] md:h-[300px]  xl:w-[100%] xl:h-[360px] flex justify-center items-center bg-[#FFFFFF] rounded-[15px]">
+              <div className=" w-[75%] h-[300px]">
+                <div className=" w-[70px] h-[70px] flex justify-center items-center bg-[#E6EEFE] rounded-lg mt-4 p-4">
+                  <img src={itmanagement} alt="none"></img>
+                </div>
+                <div className="mt-4">
+                  <p className="text-[24px] text-[#1C1C25]">
+                    Technology <br></br>solution
+                  </p>
+                  <p className="mt-3 ">
+                    Risus turpis id mauris tellus <br></br> ultricies cras nulla
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* 3rd card  */}
+
+            <div className="border  md:w-[100%] md:h-[300px]  xl:w-[100%] xl:h-[360px] flex justify-center items-center bg-[#FFFFFF] rounded-[15px]">
+              <div className=" w-[75%] h-[300px]">
+                <div className=" w-[70px] h-[70px] flex justify-center items-center bg-[#E6EEFE] rounded-lg mt-4 p-4">
+                  <img src={mobile} alt="none"></img>
+                </div>
+                <div className="mt-4">
+                  <p className="text-[24px] text-[#1C1C25]">
+                    Technology <br></br>solution
+                  </p>
+                  <p className="mt-3 ">
+                    Risus turpis id mauris tellus <br></br> ultricies cras nulla
+                  </p>
+                </div>
+              </div>
+            </div>
+            {/* four card  */}
+            <div className="border  md:w-[100%] md:h-[300px]  xl:w-[100%] xl:h-[360px] flex justify-center items-center bg-[#FFFFFF] rounded-[15px]">
+              <div className=" w-[75%] h-[300px]">
+                <div className=" w-[70px] h-[70px] flex justify-center items-center bg-[#E6EEFE] rounded-lg mt-4 p-4">
+                  <img src={datatracking} alt="none"></img>
+                </div>
+                <div className="mt-4">
+                  <p className="text-[24px] text-[#1C1C25]">
+                    Technology <br></br>solution
+                  </p>
+                  <p className="mt-3 ">
+                    Risus turpis id mauris tellus <br></br> ultricies cras nulla
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      ))}{" "}
-    </div>
+      </div>
+    </>
   );
 };
-
 export default Features;

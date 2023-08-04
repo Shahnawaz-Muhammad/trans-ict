@@ -21,7 +21,7 @@ const TopNavbar = () => {
                 {contactData.icon}
                 <a
                   href={contactData.link}
-                  className="block pl-3 pr-4 text-white rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
+                  className="block pl-3 pr-4 text-white rounded md:bg-transparent md:text-white md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
                   aria-current="page"
                 >
                   {contactData.text}
