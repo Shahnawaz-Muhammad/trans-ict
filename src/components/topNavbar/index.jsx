@@ -34,14 +34,14 @@ const TopNavbar = () => {
           className="w-full flex justify-center md:block md:w-auto"
           id="navbar-solid-bg"
         >
-          <ul className="flex flex-col font-medium rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
+          <ul className="flex flex-col font-medium rounded-lg md:flex-row md:space-x-8">
             <li className={`flex items-center gap-1`}>
               <p className="text-white text-base capitalize">follow us on:</p>
               {FollowUsData.map((followUsData, index) => (
                 <a
                   key={index}
                   href={followUsData.link}
-                  className="block pl-3 text-white rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
+                  className="block pl-3 text-white rounded"
                   aria-current="page"
                 >
                   {followUsData.icon}

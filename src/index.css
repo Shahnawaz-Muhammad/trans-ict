@@ -4,9 +4,8 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Outfit", "Poppins",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Outfit", "Poppins", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -16,14 +15,15 @@ body {
 }
 
 .border-footer {
-  border-top: 1px solid #B9A6A6
+  border-top: 1px solid #b9a6a6;
 }
-
 
 .border-footer-around {
-  border-right: 1px solid #B9A6A6;
-  border-left: 1px solid #B9A6A6
+  border-right: 1px solid #b9a6a6;
+  border-left: 1px solid #b9a6a6;
 }
 
-
+.nav-items-border:not(:last-child) {
+  border-bottom: 1px solid #1a1110;
+}
 /* ----------------------- */
