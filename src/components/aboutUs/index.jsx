@@ -1,4 +1,4 @@
-import man1 from "../../assets/images/man-1.png";
+import man1 from "../../assets/images/choose-us-img.png";
 import aboutUs from "../../assets/images/about-us-bg.png";
 
 import { BsSquareFill } from "react-icons/bs";
