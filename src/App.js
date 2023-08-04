@@ -13,6 +13,7 @@ import Pricing from "./components/pricing";
 import Services from "./components/services";
 import Partners from "./components/partners";
 import Features from "./components/features";
+import TextSlider from "./components/TextSlider";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Features />
       </div>
       <Services />
+      <TextSlider/>
       <Prograss />
       <Testimonials />
       <Pricing />
