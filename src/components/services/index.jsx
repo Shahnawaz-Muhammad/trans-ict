@@ -5,7 +5,7 @@ import { BsSquareFill } from "react-icons/bs";
 const Services = () => {
   return (
     <>
-      <div className="flex justify-center z-50  mb-5">
+      <div className="flex justify-center my-20 mb-5 ">
         <div className=" grid lg:grid-cols-2 grid-cols-1 w-[80%] xl:mt-64 md:mt-[500px] mt-[73rem]  md:w-[80%] 2xl:w-[75%] ">
           <div className=" flex items-center">
             <div className="  ">

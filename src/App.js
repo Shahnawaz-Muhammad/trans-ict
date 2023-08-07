@@ -7,13 +7,13 @@ import Hero from "./components/hero";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 import Blogs from "./components/blogs";
-import CaseStudies from "./components/caseStudies";
 import AboutUs from "./components/aboutUs";
 import Pricing from "./components/pricing";
 import Services from "./components/services";
 import Partners from "./components/partners";
 import Features from "./components/features";
 import TextSlider from "./components/TextSlider";
+import ChooseUs from "./components/choose-us";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
       
       <Header />
       <Hero />
-      <CaseStudies />
+      <ChooseUs />
       <AboutUs />
       <div className="bg-[#EFF2F8]">
         <Partners />

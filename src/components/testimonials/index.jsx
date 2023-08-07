@@ -46,13 +46,14 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="flex  bg-testimonialBg mt-28 bg-cover py-20">
-      <div className="w-1/3 pl-16 hidden md:block">
+    <div className="flex  gap-5 bg-testimonialBg  bg-cover py-20">
+      <div className="w-1/3 pl-16 hidden lg:block">
         <div className="imgcircle h-14 w-14 rounded-full bg-[#b6dcfd] mt-20"></div>
         <img src={AllImages.man} alt="Man" className="myImage" />
       </div>
+      <div className="w-1/4 pl-16 hidden md:block lg:hidden"></div>
 
-      <div className="w-full md:w-1/3 pt-16 parent-div">
+      <div className="w-full md:w-1/2 pt-16 parent-div">
         <Slider {...settings}>
           {dataArray.map((data, index) => (
             <div key={index} className="slide-item">
@@ -79,7 +80,7 @@ const Testimonials = () => {
                     alignItems: "flex-start",
                   }}
                 >
-                  <h1 className="text-4xl font-semibold pt-4">{data.title}</h1>
+                  <h1 className="text-2xl md:text-3xl font-semibold pt-4">{data.title}</h1>
                 </div>
                 <div
                   className="flex pt-6"

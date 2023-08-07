@@ -19,30 +19,29 @@ export default function Prograss() {
 
   return (
     <div className="flex justify-center z-50  mb-5">
-      <div className=" grid lg:grid-cols-2 grid-cols-1 w-[80%] gap-10 my-20 md:w-[80%] 2xl:w-[75%] ">
-        <div className="w-full ">
+      <div className=" grid lg:grid-cols-2 grid-cols-1 max-w-screen-xl gap-5 my-20 mx-5 md:mx-20 lg:mx-10 ">
+        <div className="lg:w-[90%] ">
           {/* Content for the blue div */}
           <div className="flex items-center">
             <BsSquareFill className="text-[#930000] w-3 h-3" />
 
             <p className="ml-2">WELCOME TO OUR COMPANY</p>
           </div>
-          <h1 className="text-4xl font-semibold mt-4">We provide Excellent</h1>
-          <h1 className="text-4xl font-bold">IT services for your</h1>
-          <h1 className="text-4xl font-bold">success</h1>
-          <div className="mt-10 md:mt-20 flex flex-col gap-2">
+          <h1 className="text-5xl font-semibold mt-4 leading-[3rem] pr-0 lg:pr-20">We provide Excellent IT services for your success</h1>
+          
+          <div className=" md:mt-20 flex flex-col gap-8">
             <div>
               <div className="flex justify-between items-center">
-                <p>BUSINESS SECURITY</p>
-                <p>62%</p>
+                <p className="text-sm">BUSINESS SECURITY</p>
+                <p className="text-sm">62%</p>
               </div>
               <ProgressBar percentage={62} />
             </div>
 
             <div>
               <div className="flex justify-between items-center">
-                <p>CAREER DEVELOPMENT</p>
-                <p>88%</p>
+                <p className="text-sm">CAREER DEVELOPMENT</p>
+                <p className="text-sm">88%</p>
               </div>
               <ProgressBar percentage={88} />
 
@@ -50,8 +49,8 @@ export default function Prograss() {
 
             <div>
               <div className="flex justify-between items-center">
-                <p>BUSINESS INNOVATION</p>
-                <p>90%</p>
+                <p className="text-sm">BUSINESS INNOVATION</p>
+                <p className="text-sm">90%</p>
               </div>
               <ProgressBar percentage={90} />
 
@@ -63,7 +62,7 @@ export default function Prograss() {
           <img
             src={AllImages.prograssImage}
             alt="Cover"
-            className="w-full h-96 bg-cover rounded-md"
+            className="w-full h-full rounded-md bg-contain"
           />
         </div>
       </div>

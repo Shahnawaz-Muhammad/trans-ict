@@ -1,25 +1,22 @@
 import FeaturesBackground from "../assets/images/features-bg.png";
-import feature1 from "../assets/images/feature-1.png";
-import feature2 from "../assets/images/feature-2.png";
-import feature3 from "../assets/images/feature-3.png";
 
 export const FeaturesData = [
   {
     feature: "Feature-01",
-    featureText: "Highly Expert Team Members",
+    featureText: "Trans TRACK",
     bgImg: FeaturesBackground,
-    featureImg: feature1,
+    featureDescription: "Track Operation Centre is a location where the enterprise information systems are monitored, assessed and protected.",
   },
   {
     feature: "Feature-02",
-    featureText: "Fastest Customer Service",
+    featureText: "Trans ESCROW",
     bgImg: FeaturesBackground,
-    featureImg: feature2,
+    featureDescription: "Our escrow solutions comprise all of the necessary facets required to secure critical applications in the correct manner for both end user and supplier.",
   },
   {
     feature: "Feature-03",
-    featureText: "Competitive Pricing For Service",
+    featureText: "Trans SECURITY",
     bgImg: FeaturesBackground,
-    featureImg: feature3,
+    featureDescription: "IT Security products are offered in wide range to suite the needs of our client. Crafted wise, particularly to meet end user requirements.",
   },
 ];
